@@ -1,8 +1,7 @@
 function Products() {
   return (
     <div>
-      <h1>About the shop</h1>
-      <p>This is a lovely makeup store!</p>
+      <h1>Our products</h1>
     </div>
   );
 }

@@ -1,0 +1,14 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: sandybrown;
+  padding: 10px 20px;
+  font-family: "Arial", sans-serif;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}

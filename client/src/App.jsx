@@ -4,11 +4,12 @@ import Products from "./pages/Products";
 import About from "./pages/About";
 import Login from "./pages/Login";
 import Cart from "./pages/Cart";
-import "./App.css";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <Router>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/products" element={<Products />} />
