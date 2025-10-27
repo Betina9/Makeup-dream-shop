@@ -5,7 +5,9 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <h2 className="logo">
-        <Link to="/">Makeup Dream</Link>
+        <Link to="/">
+          <img src="/images/logomakeup.png" />
+        </Link>
       </h2>
       <ul className="nav-links">
         <li>
