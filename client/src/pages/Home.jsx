@@ -53,7 +53,7 @@ export default function Home() {
             style={{ width: "100%", height: "540px" }}
             alt="Slide 2"
           />
-          <div className="text">New! Summer's best lip gloss!</div>
+          <div className="text">New! This summer's hottest lip gloss!</div>
         </div>
 
         <div className="mySlides fade">
@@ -63,7 +63,10 @@ export default function Home() {
             style={{ width: "100%", height: "540px" }}
             alt="Slide 2"
           />
-          <div className="text">“☀️ -20% off sunscreen this week!”</div>
+          <div className="text">
+            ☀️ -20% off sunscreen this week! <br /> Beauty starts with good
+            protection - take care of your skin in the sun.
+          </div>
         </div>
 
         <button className="prev" onClick={() => setSlideIndex(slideIndex - 1)}>
