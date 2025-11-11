@@ -4,9 +4,10 @@
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 1360px;
   position: relative;
   margin: auto;
+  margin-top: 15px;
 }
 
 /* Hide the images by default */

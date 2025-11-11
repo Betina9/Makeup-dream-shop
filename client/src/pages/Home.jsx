@@ -33,37 +33,37 @@ export default function Home() {
 
   return (
     <main>
-      <h1>Glow Into Summer With Makeup Dream</h1>
-
       <div className="slideshow-container">
         <div className="mySlides fade">
           <div className="numbertext">1 / 3</div>
           <img
-            src="/images/Summer1.jpg"
-            style={{ width: "100%" }}
+            src="/images/woman.jpg"
+            style={{ width: "100%", height: "540px" }}
             alt="Slide 1"
           />
-          <div className="text">Caption Text</div>
+          <div className="text">
+            Glow Into Summer - Discover seasonal favorites
+          </div>
         </div>
 
         <div className="mySlides fade">
           <div className="numbertext">2 / 3</div>
           <img
-            src="/images/SummerFlower.jpg"
-            style={{ width: "100%" }}
+            src="/images/lipgloss.jpg"
+            style={{ width: "100%", height: "540px" }}
             alt="Slide 2"
           />
-          <div className="text">Caption Two</div>
+          <div className="text">New! Summer's best lip gloss!</div>
         </div>
 
         <div className="mySlides fade">
-          <div className="numbertext">3 / 3</div>
+          <div className="numbertext">2 / 3</div>
           <img
-            src="/images/makeup.jpg"
-            style={{ width: "100%" }}
-            alt="Slide 3"
+            src="/images/sunscreen1.png"
+            style={{ width: "100%", height: "540px" }}
+            alt="Slide 2"
           />
-          <div className="text">Caption Three</div>
+          <div className="text">“☀️ -20% off sunscreen this week!”</div>
         </div>
 
         <button className="prev" onClick={() => setSlideIndex(slideIndex - 1)}>
